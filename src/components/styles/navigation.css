@@ -1,0 +1,11 @@
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    overflow-x: scroll;
+    
+    li {
+        padding: 0px 4px;
+        text-wrap-mode:nowrap;
+    }
+}

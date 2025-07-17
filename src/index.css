@@ -1,0 +1,21 @@
+:root {
+  font-family: "Open Sans", "Montserrat", system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  --primary-color: #fffcf8;
+  --dark-gray: #55534f;
+  --burnedOrange: #e06d5b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

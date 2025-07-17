@@ -1,0 +1,49 @@
+.headerContainer {
+  height: 30vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.headerBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.headerInfo {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--primary-color);
+  padding: 8px;
+  font-size: small;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.headerLogo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+}

@@ -1,0 +1,38 @@
+.cardContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  .cardImg {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .cardInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    .cardProductInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 0.8rem;
+      .cardProductName {
+        font-weight: 700;
+        font-size: 1rem;
+      }
+    }
+    .cardProductPrice {
+        display: flex;
+        justify-content: space-between;
+      .cardProductAdd {
+        display: flex;
+        justify-content: flex-end;
+        color: var(--primary-color);
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
