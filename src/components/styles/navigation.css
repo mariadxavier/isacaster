@@ -1,11 +1,26 @@
+.nav {
+    padding: 16px 10px 10px;
+}
+
 .navList {
-    display: flex;
-    list-style: none;
-    gap: 12px;
-    overflow-x: scroll;
-    
-    li {
-        padding: 0px 4px;
-        text-wrap-mode:nowrap;
-    }
+  display: flex;
+  list-style: none;
+  gap: 12px;
+  overflow-x: scroll;
+}
+
+.navItemText {
+  padding: 4px 8px;
+  text-wrap-mode: nowrap;
+  border-radius: 10px;
+  border: 1px solid var(--burnedOrange);
+  color: var(--burnedOrange);
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.navItemSelected {
+    color: var(--primary-color);
+    background-color: var(--burnedOrange);
+    border: none;
 }

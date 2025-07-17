@@ -3,20 +3,37 @@ import "./styles/navigation.css";
 
 type NavigationProps = {
   sections: MenuType[];
+  selectedIndex: number;
+  onChangeIndex: (idx: number) => void;
 };
 
-export default function Navigation({ sections }: NavigationProps) {
+export default function Navigation({
+  sections,
+  selectedIndex,
+  onChangeIndex,
+}: NavigationProps) {
+  const getClass = (selectedIndex: number, index: number): string => {
+    const selected = "navItemText navItemSelected";
+    const base = "navItemText";
+    return selectedIndex === index ? selected : base;
+  };
+
+  const handleClick = (index: number) => {
+    onChangeIndex(index);
+  };
+
   return (
-    <nav>
+    <nav className="nav">
       <ul className="navList">
-        {sections.map((section) => {
-          return <li style={{borderBottom:`1px solid ${section.sectionColor}`, color: `${section.sectionColor}`}}>{section.sectionName}</li>;
+        {sections.map((section, index) => {
+          return (
+            <li >
+              <button className={getClass(selectedIndex, index)} onClick={() => handleClick(index)}>
+                {section.sectionName}
+              </button>
+            </li>
+          );
         })}
-        <li>teste</li>
-        <li>teste 1</li>
-        <li>teste 2</li>
-        <li>teste 3</li>
-        <li>teste 4</li>
       </ul>
     </nav>
   );

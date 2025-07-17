@@ -5,27 +5,24 @@ import { Image } from "./";
 import "./styles/card.css";
 
 type CardProps = {
-    color: string;
-  // imgSrc: string;
   product: ProductsType;
 };
 
-export default function Card({ color, product }: CardProps) {
+export default function Card({ product }: CardProps) {
   return (
     <div className="cardContainer">
-      <Image src={product.productImageUrl} className="cardImg" />
+      <Image size={'120px'} src={product.productImageUrl} className="cardImg" />
       <div className="cardInfoContainer">
         <div className="cardProductInfo">
           <p className="cardProductName">{product.productName}</p>
           <p>{product.productDescription}</p>
         </div>
-        <div className="cardProductPrice">
-          <p>{Formatter.formatCurrency(product.productPrice)}</p>
-          <div style={{backgroundColor: `${color}`}} className="cardProductAdd">
+      </div>
+          <div
+            className="cardProductAdd"
+          >
             <ShoppingCartIcon />
           </div>
-        </div>
-      </div>
     </div>
   );
 }

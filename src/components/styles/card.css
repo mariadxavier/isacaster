@@ -23,16 +23,12 @@
         font-size: 1rem;
       }
     }
-    .cardProductPrice {
-        display: flex;
-        justify-content: space-between;
-      .cardProductAdd {
-        display: flex;
-        justify-content: flex-end;
-        color: var(--primary-color);
-        padding: 4px 8px;
-        border-radius: 4px;
-      }
-    }
+  }
+  .cardProductAdd {
+    display: flex;
+    color: var(--primary-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--burnedOrange);
   }
 }

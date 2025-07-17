@@ -1,10 +1,12 @@
 type ImageProps = {
-    src: string;
+  size: string;
+  src: string;
 } & React.ImgHTMLAttributes<HTMLImageElement>;
 
-export default function Image({src, ...props} : ImageProps) {
-    return (
-        <img src={src} {...props} />
-    )
-    
+export default function Image({ size, src, ...props }: ImageProps) {
+  return (
+    <div style={{width: size, height: size}}>
+      <img src={src} {...props} />
+    </div>
+  );
 }

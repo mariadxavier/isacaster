@@ -55,7 +55,7 @@ class MenuController {
     const allSections = this.getSections();
     const completeSection = this.getCompleteSection();
 
-    const finalContent: MenuType[] = [...allSections, completeSection];
+    const finalContent: MenuType[] = [completeSection, ...allSections];
 
     return finalContent;
   }
