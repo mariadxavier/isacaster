@@ -1,6 +1,11 @@
 .cardList {
-  height: 64vh;
-  overflow-y: scroll;
+  max-height: 60dvh;
+  overflow-y: scroll; scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.cardList::-webkit-scrollbar {
+  display: none;
 }
 
 .cardContainer {

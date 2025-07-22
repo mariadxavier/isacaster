@@ -1,5 +1,12 @@
 .nav {
-    padding: 14px 10px;
+  max-height: 6dvh;
+  padding: 14px 10px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
 }
 
 .navList {
@@ -20,7 +27,7 @@
 }
 
 .navItemSelected {
-    color: var(--primary-color);
-    background-color: var(--burnedOrange);
-    border: none;
+  color: var(--primary-color);
+  background-color: var(--burnedOrange);
+  border: none;
 }

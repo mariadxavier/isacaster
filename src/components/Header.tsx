@@ -1,7 +1,7 @@
 import "./styles/header.css";
 import { Image } from "./index";
-import logoImg from "../../public/assets/logo-zoom.png";
-import background from "../../public/assets/fallback-cozinheira.jpg";
+import logoImg from "/assets/logo-zoom.png";
+import background from "/assets/fallback-cozinheira.jpg";
 import { InstagramIcon, PhoneIcon } from "lucide-react";
 
 export default function Header() {
