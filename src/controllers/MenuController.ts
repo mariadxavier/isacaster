@@ -1,4 +1,4 @@
-import dataJson from "../../products.json";
+import dataJson from "../products.json";
 import type {
   GetProductsResponse,
   MenuType,
