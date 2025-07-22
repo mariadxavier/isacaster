@@ -33,6 +33,12 @@ class MenuController {
     return completeSection;
   }
 
+  public getWppUrl(linkText: string): string {
+    const WPP_URL = import.meta.env.VITE_WPP_URL;
+    const completeString = WPP_URL.concat("%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20produto%20", linkText);
+    return completeString;
+  }
+
   public getSections(): MenuType[] {
     const sections = this.getRemoteData().sections;
     return sections;

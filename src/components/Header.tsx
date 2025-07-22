@@ -5,18 +5,20 @@ import background from "../assets/fallback-cozinheira.jpg";
 import { InstagramIcon, PhoneIcon } from "lucide-react";
 
 export default function Header() {
+  const INSTA_URL = import.meta.env.VITE_INSTA_URL;
+  const wppUrl = import.meta.env.VITE_WPP_URL;
   return (
     <header className="headerContainer">
-      <Image className="headerBackground" src={background} />
+      <Image className="headerBackground" src={background} size={"unset"} />
       <div className="headerInfo">
-        <Image className="headerLogo" src={logoImg} />
+        <Image className="headerLogo" src={logoImg} size={"unset"} />
         <div className="headerTextContainer">
           <p>ISABELLA CÁSTER</p>
           <div className="headerIcons">
-            <a href="https://wa.me/qr/2FDMSN5HJ43XC1">
+            <a href={wppUrl}>
               <PhoneIcon />
             </a>
-            <a href="https://www.instagram.com/isabella_caster?igsh=Y2FubHV6bnUxaHY0">
+            <a href={INSTA_URL}>
               <InstagramIcon />
             </a>
           </div>

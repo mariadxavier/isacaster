@@ -1,7 +1,12 @@
+.cardList {
+  height: 64vh;
+  overflow-y: scroll;
+}
+
 .cardContainer {
   display: flex;
   gap: 1rem;
-  padding: 0.5rem;
+  padding: 0 0.5rem 1rem;
   align-items: center;
   .cardImg {
     width: 120px;

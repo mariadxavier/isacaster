@@ -10,6 +10,7 @@ export type ProductsType = {
     productDescription: string;
     productPrice: number;
     productImageUrl: string;
+    linkText: string;
 }
 
 export type GetProductsResponse = {

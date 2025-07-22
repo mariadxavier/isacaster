@@ -9,37 +9,43 @@
           "productName": "Amendoim & avelã ",
           "productDescription": "Biscoitos de amendoim, recheados com creme de avelã e pasta de amendoim",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/amendoim e avela.png",
+          "linkText": "Amendoim%20%26%20avel%C3%A3"
         },
         {
           "productName": "Casadinho Tradicional",
           "productDescription": "Aproximadamente 150g / cerca de 15 casadinhos",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg",
+          "linkText": "Casadinho%20Tradicional"
         },
         {
           "productName": "Biscoito de Baunilha e Ninho",
           "productDescription": "Aproximadamente 150g / cerca de 30 unidades",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/biscoitBaunilha.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/biscoitBaunilha.jpg",
+          "linkText": "Biscoito%20de%20Baunilha%20e%20Ninho"
         },
         {
           "productName": "Canelinha",
           "productDescription": "Biscoitos sem recheio aromatizados com canela",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/canelinha.png",
+          "linkText": "Canelinha"
         },
         {
           "productName": "Café e Avelã",
           "productDescription": "Biscoitos de café, recheados com creme de avelã",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/cafe e avela.png",
+          "linkText": "Caf%C3%A9%20e%20Avel%C3%A3"
         },
         {
           "productName": "Churrito ",
           "productDescription": "Biscoitos aromatizados de canela, recheados com doce de leite",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/churrito.png",
+          "linkText": "Churrito"
         }
       ]
     },
@@ -52,19 +58,22 @@
           "productName": "Mousse de Queijo",
           "productDescription": "Feita com parmesão e gorgonzola, finalizada com geleia de pimentões levemente apimentada",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/casadinho.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/mousse de queijo.png",
+          "linkText": "Mousse%20de%20Queijo"
         },
         {
-          "productName": "Gelado de tapioca",
-          "productDescription": "Bolo gelado de tapioca, com um delicioso creme de leite condensado, leite de coco e coco, finalizado com uma farofinha de coco caramelizado",
+          "productName": "Gelado de Tapioca",
+          "productDescription": "Bolo gelado de tapioca, com creme de leite condensado, leite de coco e coco, finalizado com farofinha de coco caramelizado",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/biscoitBaunilha.jpg"
+          "productImageUrl": "./src/assets/imagensProdutos/gelado de tapioca.png",
+          "linkText": "Gelado%20de%20Tapioca"
         },
         {
           "productName": "Focaccia",
-          "productDescription": "",
+          "productDescription": "Focaccia artesanal, macia por dentro, levemente crocante por fora, temperada com azeite de oliva, alecrim e um toque de sal marinho.",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/focaccia.png"
+          "productImageUrl": "./src/assets/imagensProdutos/focaccia.png",
+          "linkText": "Focaccia"
         }
       ]
     },
@@ -77,25 +86,36 @@
           "productName": "Palmier",
           "productDescription": "Massa folhada levemente adocicada, com ou sem canela",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/palmier.png"
+          "productImageUrl": "./src/assets/imagensProdutos/palmier.png",
+          "linkText": "Palmier"
         },
         {
           "productName": "Bolo Caseiro",
           "productDescription": "Grande ou pequeno. Limão, laranja, tangerina",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/bol caseiro.png"
+          "productImageUrl": "./src/assets/imagensProdutos/bol caseiro.png",
+          "linkText": "Bolo%20Caseiro"
         },
         {
           "productName": "Bolo de Cenoura",
           "productDescription": "Grande ou pequeno. Com ganache de chocolate ou brigadeiro",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/bolo cenoura.png"
+          "productImageUrl": "./src/assets/imagensProdutos/bolo cenoura.png",
+          "linkText": "Bolo%20de%20Cenoura"
         },
         {
           "productName": "Bolo de Ninho",
           "productDescription": "Massa super fofinha de leite ninho, com brigadeiro de leite ninho",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/bolo ninho.png"
+          "productImageUrl": "./src/assets/imagensProdutos/bolo ninho.png",
+          "linkText": "Bolo%20de%20Ninho"
+        },
+        {
+          "productName": "Bolo de Limão e Mirtilo",
+          "productDescription": "Massa com suco de limão e mirtilos. Opção com ou sem brigadeiro de limão",
+          "productPrice": 10.0,
+          "productImageUrl": "./src/assets/imagensProdutos/bolo limao mirtilo.jpg",
+          "linkText": "Bolo%20de%20Lim%C3%A3o%20e%20Mirtilo"
         }
       ]
     },
@@ -106,33 +126,38 @@
       "sectionProducts": [
         {
           "productName": "Brownie",
-          "productDescription": "Brownie tradicional de chocolate",
+          "productDescription": "Brownie tradicional de chocolate nobre blend, macio por dentro e crocante por fora",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/brownie.png"
-        },
-        {
-          "productName": "Mini Brownie",
-          "productDescription": "Mini brownie tradicional de chocolate",
-          "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/mini brownie.png"
+          "productImageUrl": "./src/assets/imagensProdutos/brownie.png",
+          "linkText": "Brownie"
         },
         {
           "productName": "Brigadeiro de Caramelo Crocante",
           "productDescription": "Docinhos de caramelo passados no cereal crocante. Pedido mínimo: 50 unidades. Consulte para outros sabores",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/brigadeiro caramelo.png"
+          "productImageUrl": "./src/assets/imagensProdutos/brigadeiro caramelo.png",
+          "linkText": "Brigadeiro%20de%20Caramelo%20Crocante"
+        },
+        {
+          "productName": "Mini Brownie",
+          "productDescription": "Mini brownie tradicional de chocolate nobre blend, macio por dentro e crocante por fora",
+          "productPrice": 10.0,
+          "productImageUrl": "./src/assets/imagensProdutos/mini brownie.png",
+          "linkText": "Mini%20Brownie"
         },
         {
           "productName": "Brigadeiro Tradicional Gourmet",
-          "productDescription": "Docinhos de chocolate nobre blend passados no granulado 100% chocolate (vermicelli ou granule). Pedido mínimo: 50 unidades. Consulte para outros sabores",
+          "productDescription": "Chocolate nobre blend passados no granulado 100% chocolate (vermicelli ou granule)",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/brigadeiro.png"
+          "productImageUrl": "./src/assets/imagensProdutos/brigadeiro.png",
+          "linkText": "Brigadeiro%20Tradicional%20Gourmet"
         },
         {
           "productName": "Pipoca Gourmet",
           "productDescription": "Ninho + chocolate blend; Ninho + chocolate branco",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/pipoca.png"
+          "productImageUrl": "./src/assets/imagensProdutos/pipoca.png",
+          "linkText": "Pipoca%20Gourmet"
         }
       ]
     },
@@ -145,31 +170,36 @@
           "productName": "Tarte Tartin",
           "productDescription": "Torta francesa composta por uma massa amanteigada e maçãs caramelizadas",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/tarte tartin.png"
+          "productImageUrl": "./src/assets/imagensProdutos/tarte tartin.png",
+          "linkText": "Tarte%20Tartin3"
         },
         {
           "productName": "Torta de Caramelo Salgado",
           "productDescription": "Massa de cacau, creme de chocolate e caramelo salgado",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/torta caramelo salgado.png"
+          "productImageUrl": "./src/assets/imagensProdutos/torta caramelo salgado.png",
+          "linkText": "Torta%20de%20Caramelo%20Salgado"
         },
         {
           "productName": "Torta de Maracujá com Chocolate",
           "productDescription": "Massa de cacau, mousse de maracujá e creme de chocolate, finalizada com geleia de maracujá",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/torta maracuja.png"
+          "productImageUrl": "./src/assets/imagensProdutos/torta maracuja.png",
+          "linkText": "Torta%20de%20Maracuj%C3%A1%20com%20Chocolate"
         },
         {
           "productName": "Torta de Fruta",
           "productDescription": "Base neutra, creme patisserie e geleia de fruta (a sua escolha)",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/torta maracuja.png"
+          "productImageUrl": "./src/assets/imagensProdutos/torta fruta.png",
+          "linkText": "Torta%20de%20Fruta"
         },
         {
           "productName": "Pudim de Leite Condensado",
-          "productDescription": "",
+          "productDescription": "Pudim cremoso feito com leite condensado e calda de caramelo dourado.",
           "productPrice": 10.0,
-          "productImageUrl": "./src/assets/imagensProdutos/pudim de leite.png"
+          "productImageUrl": "./src/assets/imagensProdutos/pudim de leite.png",
+          "linkText": "Pudim%20de%20Leite%20Condensado"
         }
       ]
     }
