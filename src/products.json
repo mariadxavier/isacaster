@@ -13,8 +13,8 @@
           "linkText": "Amendoim%20%26%20avel%C3%A3"
         },
         {
-          "productName": "Casadinho Tradicional",
-          "productDescription": "Aproximadamente 150g / cerca de 15 casadinhos",
+          "productName": "Casadinho",
+          "productDescription": "Biscoitos recheados com goiabada artesanal (feita por vó com muito carinho)",
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/casadinho.jpg",
           "linkText": "Casadinho%20Tradicional"
@@ -126,7 +126,7 @@
       "sectionProducts": [
         {
           "productName": "Brownie",
-          "productDescription": "Brownie tradicional de chocolate nobre blend, macio por dentro e crocante por fora",
+          "productDescription": "Brownie tradicional de chocolate nobre blend, macio por dentro e crocante por fora. Pedido mínimo: 50 unidades. Consulte para outros sabores",
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/brownie.png",
           "linkText": "Brownie"
@@ -158,6 +158,13 @@
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/pipoca.png",
           "linkText": "Pipoca%20Gourmet"
+        },
+        {
+          "productName": "Brownie Blondie",
+          "productDescription": "Brownie de chocolate branco. Diversas opções, como: limão siciliano, frutas vermelhas, amêndoas",
+          "productPrice": 10.0,
+          "productImageUrl": "assets/imagensProdutos/brownie blonde.png",
+          "linkText": "Brownie%20Blondie"
         }
       ]
     },
@@ -171,7 +178,7 @@
           "productDescription": "Torta francesa composta por uma massa amanteigada e maçãs caramelizadas",
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/tarte tartin.png",
-          "linkText": "Tarte%20Tartin3"
+          "linkText": "Tarte%20Tartin"
         },
         {
           "productName": "Torta de Caramelo Salgado",
