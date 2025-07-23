@@ -21,7 +21,7 @@
         },
         {
           "productName": "Biscoito de Baunilha e Ninho",
-          "productDescription": "Aproximadamente 150g / cerca de 30 unidades",
+          "productDescription": "Biscoitos de baunilha sem recheio, passados no leite ninho",
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/biscoitBaunilha.jpg",
           "linkText": "Biscoito%20de%20Baunilha%20e%20Ninho"
@@ -116,6 +116,13 @@
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/bolo limao mirtilo.jpg",
           "linkText": "Bolo%20de%20Lim%C3%A3o%20e%20Mirtilo"
+        },
+        {
+          "productName": "Bolo de Banana e Chocolate",
+          "productDescription": "Massa de banana e cacau, com gotas de chocolate nobre blend",
+          "productPrice": 10.0,
+          "productImageUrl": "assets/imagensProdutos/bolo banana.png",
+          "linkText": "Bolo%20de%20Banana%20e%20Chocolate"
         }
       ]
     },
