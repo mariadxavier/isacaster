@@ -19,3 +19,31 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* RESPONSIVE STYLES: */
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .navList {
+    justify-content: space-between;
+  }
+  .navItemText {
+    padding: 8px 16px;
+  }
+
+  .cardInfoContainer {
+    flex: 1;
+  }
+
+  .headerInfo {
+    padding-left: 2rem;
+  }
+
+  .headerLogo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .headerTextContainer {
+    font-size: large;
+  }
+}
