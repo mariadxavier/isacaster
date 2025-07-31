@@ -1,3 +1,5 @@
+import '../index.css';
+
 type ImageProps = {
   size: string;
   src: string;
@@ -5,7 +7,7 @@ type ImageProps = {
 
 export default function Image({ size, src, ...props }: ImageProps) {
   return (
-    <div style={{width: size, height: size}}>
+    <div className="imgContainer" style={{width: size, height: size}}>
       <img src={src} {...props} />
     </div>
   );

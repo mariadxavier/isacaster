@@ -1,12 +1,6 @@
 .nav {
   max-height: 6dvh;
   padding: 14px 10px;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.nav::-webkit-scrollbar {
-  display: none;
 }
 
 .navList {

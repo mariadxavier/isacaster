@@ -27,7 +27,7 @@ export default function Navigation({
       <ul className="navList">
         {sections.map((section, index) => {
           return (
-            <li >
+            <li className="navItem">
               <button className={getClass(selectedIndex, index)} onClick={() => handleClick(index)}>
                 {section.sectionName}
               </button>

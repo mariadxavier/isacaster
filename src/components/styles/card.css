@@ -1,17 +1,16 @@
 .cardList {
-  max-height: 60dvh;
-  overflow-y: scroll; scrollbar-width: none;
+  max-height: 62vh;
+  overflow-y: scroll;
   -ms-overflow-style: none;
-}
-
-.cardList::-webkit-scrollbar {
-  display: none;
+  padding: 0 0.5rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardContainer {
   display: flex;
   gap: 1rem;
-  padding: 0 0.5rem 1rem;
   align-items: center;
   .cardImg {
     width: 120px;

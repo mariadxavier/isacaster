@@ -16,10 +16,10 @@ export default function Header() {
           <p>ISABELLA CÁSTER</p>
           <div className="headerIcons">
             <a href={wppUrl}>
-              <PhoneIcon />
+              <PhoneIcon className="headerIcon" />
             </a>
             <a href={INSTA_URL}>
-              <InstagramIcon />
+              <InstagramIcon className="headerIcon" />
             </a>
           </div>
         </div>
