@@ -21,7 +21,7 @@ export default function Card({ product }: CardProps) {
       </div>
       <div className="cardProductAdd">
         <a href={wppLink}>
-          <ShoppingCartIcon />
+          <ShoppingCartIcon className="cardIcon" />
         </a>
       </div>
     </div>

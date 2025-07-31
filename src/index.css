@@ -9,6 +9,8 @@
 * {
   padding: 0;
   margin: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 body {
@@ -45,5 +47,137 @@ a {
 
   .headerTextContainer {
     font-size: large;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {
+  .navItemText {
+    font-size: 1.5rem;
+  }
+
+  .headerContainer {
+    height: 38vh;
+  }
+
+  .headerTextContainer {
+    font-size: 1.5rem;
+  }
+  .headerLogo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .headerIcon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cardList {
+    max-height: 60vh;
+  }
+  .cardContainer {
+    .imgContainer {
+      width: 160px !important;
+      height: 160px !important;
+    }
+    .cardImg {
+      width: 160px !important;
+      height: 160px !important;
+    }
+    .cardProductInfo {
+      font-size: 1rem !important;
+      .cardProductName {
+        font-size: 1.4rem !important;
+      }
+    }
+
+    .cardProductAdd {
+      padding: 6px 10px !important;
+      .cardIcon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+/* Laptop L */
+@media screen and (min-width: 1280px) {
+  .headerLogo {
+    width: 230px;
+    height: 230px;
+  }
+
+  .headerInfo {
+    padding-left: 2rem;
+  }
+
+  .headerTextContainer {
+    font-size: 1.4rem;
+  }
+  .headerIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .headerContainer {
+    height: 40vh;
+  }
+  .nav {
+    padding: 10px 1rem;
+  }
+
+  .navList {
+    justify-content: unset;
+  }
+
+  .navItem {
+    flex: 1 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navItemText {
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0;
+    flex: 1;
+    padding: 8px 12px;
+  }
+
+  .navItemSelected {
+    color: var(--burnedOrange);
+    background-color: transparent;
+    border-bottom: 2px solid var(--burnedOrange);
+  }
+
+  .cardList {
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    max-height: 50vh !important;
+    gap: 1rem !important;
+  }
+  .cardContainer {
+    .imgContainer {
+      width: 150px !important;
+      height: 150px !important;
+    }
+    .cardImg {
+      width: 150px !important;
+      height: 150px !important;
+    }
+    .cardProductInfo {
+      font-size: 0.8rem !important;
+      .cardProductName {
+        font-size: 1rem !important;
+      }
+    }
+
+    .cardProductAdd {
+      .cardIcon {
+        width: 28px;
+        height: 28px;
+      }
+    }
   }
 }

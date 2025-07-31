@@ -1,15 +1,11 @@
 .cardList {
   max-height: 62vh;
-  overflow-y: scroll; scrollbar-width: none;
+  overflow-y: scroll;
   -ms-overflow-style: none;
   padding: 0 0.5rem;
   gap: 1rem;
   display: flex;
   flex-direction: column;
-}
-
-.cardList::-webkit-scrollbar {
-  display: none;
 }
 
 .cardContainer {
