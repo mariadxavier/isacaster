@@ -123,6 +123,13 @@
           "productPrice": 10.0,
           "productImageUrl": "assets/imagensProdutos/bolo banana.png",
           "linkText": "Bolo%20de%20Banana%20e%20Chocolate"
+        },
+        {
+          "productName": "Torta Salgada",
+          "productDescription": "Recheada com legumes, carne moída ou frango",
+          "productPrice": 10.0,
+          "productImageUrl": "assets/imagensProdutos/torta salgada.png",
+          "linkText": "Torta%20Salgada"
         }
       ]
     },
