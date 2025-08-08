@@ -36,6 +36,16 @@
   font-weight: 500;
 }
 
+.headerNameContainer {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.headerNameContainer:hover {
+  cursor: pointer;
+}
+
 .headerIcons {
   display: flex;
   gap: 1rem;

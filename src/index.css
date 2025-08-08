@@ -4,6 +4,7 @@
   --primary-color: #fffcf8;
   --dark-gray: #55534f;
   --burnedOrange: #e06d5b;
+  --modal-bg: rgba(0,0,0,0.5);
 }
 
 * {
@@ -20,6 +21,18 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.modalBg {
+  position: absolute;
+  background-color: var(--modal-bg);
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
 }
 
 /* RESPONSIVE STYLES: */
