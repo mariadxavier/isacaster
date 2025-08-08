@@ -1,0 +1,58 @@
+.descriptionContainer {
+  width: 80vw;
+  height: 70vh;
+  background-image: url("assets/bg_modal.jpg");
+  background-repeat: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.descriptionContainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.3);
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.descriptionContainer > * {
+  position: relative;
+  z-index: 1;
+}
+
+.descriptionExit {
+  background-color: var(--burnedOrange);
+  border-radius: 50px;
+  padding: 8px;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -8px;
+  top: -1rem;
+  color: var(--primary-color)
+}
+
+.descriptionExit:hover {
+    cursor: pointer;
+}
+
+.descriptionTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    gap: 1rem;
+    color: var(--primary-color);
+    padding: 10px;
+    line-height: 1.6rem;
+}
