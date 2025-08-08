@@ -1,5 +1,6 @@
 import { XIcon } from "lucide-react";
 import "./styles/descriptionModal.css";
+import containerBg from '/assets/bg_modal.jpg'
 
 type DescriptionModalProps = {
     onClose: () => void;
@@ -9,6 +10,7 @@ export default function DescriptionModal({onClose} : DescriptionModalProps) {
   return (
     <div
       className="descriptionContainer"
+      style={{backgroundImage: `url(${containerBg})`}}
     >
       <div onClick={onClose} className="descriptionExit">
         <XIcon />
